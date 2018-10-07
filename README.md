@@ -45,7 +45,11 @@
     1. https://raw.githubusercontent.com/pncstar/hbsmith/master/requirements.txt
 1. run `python -m pip install -r requirements.txt`.
 
-### 'dtaidistance'
+## install 7zip
+
+1. https://www.7-zip.org/a/7z1805-x64.exe
+
+## install 'dtaidistance'
 
 1. unzip 'dtaidistance-1.1.3.tar.gz'
 1. move 'dtaidistance-1.1.3' to 'C:\dtaidistance-1.1.3'
