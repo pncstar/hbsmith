@@ -22,6 +22,12 @@
 - https://files.pythonhosted.org/packages/19/9f/5b0780662486b1775ed8f70b63b73a2ec386f875a878c46efb6e2bc355ba/dtaidistance-1.1.3.tar.gz (dtaidistance==1.1.3)
 - https://www.apachehaus.com/cgi-bin/download.plx?dli=gYy0keSNVW04EVj9yYzQWcJVlUGRVYRlXZWpkW
 
+## install apache
+
+1. unzip 'httpd-2.4.35-o102p-x64-vc14.zip'
+1. move 'Apache24' folder to 'C:\Apache24'.
+1. In 'C:\Apache24\bin\', run `httpd.exe -k install`.
+
 ## install python3
 
 - check 'Add Python to environment variables' in 'Advanced Options'.
@@ -47,9 +53,3 @@ In 'C:\ss\' run `python -m pip install -r requirements.txt`.
 ## run django for dev or test
 
 In 'C:\ss\Hyundai_Chart_Manager\' run `python manage.py runserver 0.0.0.0:8080`.
-
-## install apache
-
-1. unzip 'httpd-2.4.35-o102p-x64-vc14.zip'
-1. move 'Apache24' folder to 'C:\Apache24'.
-1. In 'C:\Apache24\bin\', run `httpd.exe -k install`.
