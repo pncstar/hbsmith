@@ -23,15 +23,21 @@
 - http://nginx.org/download/nginx-1.14.0.zip
 - https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe
 - https://nssm.cc/release/nssm-2.24.zip
+- https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15
 
 ## Create 'nginx' window service
 
 1. Move nginx folder as 'C:\nginx'
 1. Move nssm folder as 'C:\nssm'
+1. Move ss fodler as 'C:\ss'
 1. Run "nssm install nginx" from the command line in 'C:\nssm\win64\'.
 1. On the application tab: set path to 'C:\nginx\nginx.exe'
 1. On the I/O tab type "start nginx" on the Input.
 1. Click "install service". Go to services, start "nginx".
+
+## install prerequirements
+
+- vs_buildtools__544792918.1538907809 (for 'dtaidistance')
 
 ## install python3
 
@@ -43,5 +49,10 @@
     - https://www.microsoft.com/en-us/download/details.aspx?id=42334
     - (install 'clearcompressionflag.exe' first, then 'Windows8.1-KB2919355-x64.msu')
 
+## install pip packages
 
-E:\dev\Hyundai_Chart_Manager\venv\Scripts\python.exe "C:\Program Files\JetBrains\PyCharm 2018.1.4\helpers\pydev\pydevd.py" --multiproc --qt-support=auto --client 127.0.0.1 --port 49990 --file E:/dev/Hyundai_Chart_Manager/Hyundai_Chart_Manager/manage.py runserver localhost:8081
+In 'C:\ss\' run `python -m pip install -r requirements.txt`.
+
+## run django
+
+In 'C:\ss\Hyundai_Chart_Manager\' run `python manage.py runserver 0.0.0.0:8080`.
