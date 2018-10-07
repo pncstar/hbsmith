@@ -16,7 +16,7 @@ django
 
 # Step By Step
 
-1. download packages
+## download packages
 
 http://nginx.org/download/nginx-1.14.0.zip
 
@@ -24,7 +24,7 @@ https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe
 
 https://nssm.cc/release/nssm-2.24.zip
 
-1. Create 'nginx' window service
+## Create 'nginx' window service
 
 - Move nginx folder as 'C:\nginx'
 - Move nssm folder as 'C:\nssm'
@@ -33,11 +33,9 @@ https://nssm.cc/release/nssm-2.24.zip
 - On the I/O tab type "start nginx" on the Input.
 - Click "install service". Go to services, start "nginx".
 
-1. install python3 (require Windows Administrator privilege
+## install python3 (require Windows Administrator privilege
 
 - check 'Add Python to environment variables' in 'Advanced Options'.
 
 - if you get error 0x80240017, then install patch from Microsoft site below:
-https://www.microsoft.com/en-us/download/details.aspx?id=48234
-
-1. 
+https://www.microsoft.com/en-us/download/details.aspx?id=48234 
