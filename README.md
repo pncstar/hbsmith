@@ -42,6 +42,7 @@
 ## install pip packages
 
 1. download 'requirements.txt' from github repository (here).
+    1. https://raw.githubusercontent.com/pncstar/hbsmith/master/requirements.txt
 1. run `python -m pip install -r requirements.txt`.
 
 ### 'dtaidistance'
