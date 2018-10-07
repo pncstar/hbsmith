@@ -65,7 +65,7 @@ In 'C:\ss\Hyundai_Chart_Manager\' run `python manage.py runserver 0.0.0.0:8080`.
 
 ## install mod_wsgi
 
-1. `pip3 install mod_wsgi-4.6.4+ap24vc14-cp36-cp36m-win_amd64.whl`
+1. `python -m pip install mod_wsgi-4.6.4+ap24vc14-cp36-cp36m-win_amd64.whl`
 1. `mod_wsgi-express module-config`
 1. put the result of above command into 'C:\Apache24\conf\httpd.conf'.
 
