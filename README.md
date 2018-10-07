@@ -38,7 +38,10 @@
 - check 'Add Python to environment variables' in 'Advanced Options'.
 - if you get error 0x80240017, then install patch from Microsoft site
   - KB2919442 for Windows 2012R2
+    - https://www.microsoft.com/en-us/download/details.aspx?id=42153
   - KB2919335 for Windows 2012R2
+    - https://www.microsoft.com/en-us/download/details.aspx?id=42334
+    - (install 'clearcompressionflag.exe' first, then 'Windows8.1-KB2919355-x64.msu'
 
 
 E:\dev\Hyundai_Chart_Manager\venv\Scripts\python.exe "C:\Program Files\JetBrains\PyCharm 2018.1.4\helpers\pydev\pydevd.py" --multiproc --qt-support=auto --client 127.0.0.1 --port 49990 --file E:/dev/Hyundai_Chart_Manager/Hyundai_Chart_Manager/manage.py runserver localhost:8081
