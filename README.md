@@ -13,9 +13,14 @@
 
 ## download and install Microsoft packages
 
+- https://www.microsoft.com/en-us/download/confirmation.aspx?id=48159
+
+- (for Windows 2012R2) https://www.microsoft.com/en-us/download/details.aspx?id=42153
+- (for Windows 2012R2) https://www.microsoft.com/en-us/download/details.aspx?id=42334
+    - install 'clearcompressionflag.exe' first
+    - then 'Windows8.1-KB2919355-x64.msu'
 - https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15 (for 'dtaidistance')
 - https://www.microsoft.com/en-us/download/details.aspx?id=49984 (install for Apache 2.4 services)
-- https://www.microsoft.com/en-us/download/confirmation.aspx?id=48159
 
 ## download packages
 
@@ -50,12 +55,6 @@ Require all granted
 ## install python3
 
 - check 'Add Python to environment variables' in 'Advanced Options'.
-- if you get error 0x80240017, then install patch from Microsoft site
-  - KB2919442 for Windows 2012R2
-    - https://www.microsoft.com/en-us/download/details.aspx?id=42153
-  - KB2919335 for Windows 2012R2
-    - https://www.microsoft.com/en-us/download/details.aspx?id=42334
-    - (install 'clearcompressionflag.exe' first, then 'Windows8.1-KB2919355-x64.msu')
 
 ## install pip packages
 
