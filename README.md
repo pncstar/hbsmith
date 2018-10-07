@@ -16,7 +16,7 @@ django
 
 # Step By Step
 
-1. download and install packages
+1. download packages
 
 http://nginx.org/download/nginx-1.14.0.zip
 
@@ -24,7 +24,7 @@ https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe
 
 https://nssm.cc/release/nssm-2.24.zip
 
-# Create 'nginx' window service
+1. Create 'nginx' window service
 
 - Move nginx folder as 'C:\nginx'
 - Run "nssm install nginx" from the command line.
@@ -32,5 +32,8 @@ https://nssm.cc/release/nssm-2.24.zip
 - On the I/O tab type "start nginx" on the Input.
 - Click "install service". Go to services, start "nginx".
 
+1. install python3 (require Windows Administrator privilege
 
-https://stackoverflow.com/questions/40846356/run-nginx-as-windows-service
+- check 'Add Python to environment variables' in 'Advanced Options'.
+
+1. 
