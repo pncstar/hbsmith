@@ -1,8 +1,6 @@
 anyjson==0.3.3
 asn1crypto==0.24.0
 astroid==2.0.4
-blas==1
-ca-certificates==2018.03.07
 cached-property==1.4.3
 certifi==2018.8.24
 cffi==1.11.5
