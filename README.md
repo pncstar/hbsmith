@@ -36,4 +36,7 @@ https://nssm.cc/release/nssm-2.24.zip
 
 - check 'Add Python to environment variables' in 'Advanced Options'.
 
+- if you get error 0x80240017, then install patch from Microsoft site below:
+https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+
 1. 
