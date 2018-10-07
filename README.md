@@ -24,6 +24,7 @@
 - https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe
 - https://nssm.cc/release/nssm-2.24.zip
 - https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15
+- https://files.pythonhosted.org/packages/19/9f/5b0780662486b1775ed8f70b63b73a2ec386f875a878c46efb6e2bc355ba/dtaidistance-1.1.3.tar.gz (dtaidistance==1.1.3)
 
 ## Create 'nginx' window service
 
@@ -52,6 +53,14 @@
 ## install pip packages
 
 In 'C:\ss\' run `python -m pip install -r requirements.txt`.
+
+## install 'dtaidistance'
+
+1. unzip 'dtaidistance-1.1.3.tar.gz'
+1. move 'dtaidistance-1.1.3' to 'C:\dtaidistance-1.1.3'
+1. edit 'C:\dtaidistance-1.1.3\setup.py' line 140 to 141.
+  1. https://github.com/wannesm/dtaidistance/blob/f0b60b6c8c770b915e07815fe2932bd24aaa064d/setup.py#L140
+  1. `long_description = 'pass'`
 
 ## run django
 
