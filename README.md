@@ -29,28 +29,11 @@
 - https://www.apachehaus.com/cgi-bin/download.plx?dli=gYy0keSNVW04EVj9yYzQWcJVlUGRVYRlXZWpkW
 - https://download.lfd.uci.edu/pythonlibs/h2ufg7oq/mod_wsgi-4.6.4+ap24vc14-cp36-cp36m-win_amd64.whl
 
-## install apache
+## install Apache
 
 1. unzip 'httpd-2.4.35-o102p-x64-vc14.zip'
 1. move 'Apache24' folder to 'C:\Apache24'.
 1. In 'C:\Apache24\bin\', run `httpd.exe -k install`.
-
-## install mod_wsgi
-
-1. `pip3 install mod_wsgi-4.6.4+ap24vc14-cp36-cp36m-win_amd64.whl`
-1. `mod_wsgi-express module-config`
-1. put the result of above command into 'C:\Apache24\conf\httpd.conf'.
-
-```
-WSGIScriptAlias / /ss/Hyundai_Chart_Manager/Hyundai_Chart_Manager/wsgi.py
-WSGIPythonPath /ss/Hyundai_Chart_Manager
-
-<Directory /ss/Hyundai_Chart_Manager/Hyundai_Chart_Manager>
-<Files wsgi.py>
-Require all granted
-</Files>
-</Directory>
-```
 
 ## install python3
 
@@ -71,3 +54,20 @@ In 'C:\ss\' run `python -m pip install -r requirements.txt`.
 ## run django for dev or test
 
 In 'C:\ss\Hyundai_Chart_Manager\' run `python manage.py runserver 0.0.0.0:8080`.
+
+## install mod_wsgi
+
+1. `pip3 install mod_wsgi-4.6.4+ap24vc14-cp36-cp36m-win_amd64.whl`
+1. `mod_wsgi-express module-config`
+1. put the result of above command into 'C:\Apache24\conf\httpd.conf'.
+
+```
+WSGIScriptAlias / /ss/Hyundai_Chart_Manager/Hyundai_Chart_Manager/wsgi.py
+WSGIPythonPath /ss/Hyundai_Chart_Manager
+
+<Directory /ss/Hyundai_Chart_Manager/Hyundai_Chart_Manager>
+<Files wsgi.py>
+Require all granted
+</Files>
+</Directory>
+```
