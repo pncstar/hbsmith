@@ -27,7 +27,8 @@ https://nssm.cc/release/nssm-2.24.zip
 1. Create 'nginx' window service
 
 - Move nginx folder as 'C:\nginx'
-- Run "nssm install nginx" from the command line.
+- Move nssm folder as 'C:\nssm'
+- Run "nssm install nginx" from the command line in 'C:\nssm\win64\'.
 - On the application tab: set path to 'C:\nginx\nginx.exe'
 - On the I/O tab type "start nginx" on the Input.
 - Click "install service". Go to services, start "nginx".
