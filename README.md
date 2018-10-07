@@ -33,8 +33,9 @@
 1. On the I/O tab type "start nginx" on the Input.
 1. Click "install service". Go to services, start "nginx".
 
-## install python3 (require Windows Administrator privilege
+## install python3
 
 - check 'Add Python to environment variables' in 'Advanced Options'.
-- if you get error 0x80240017, then install patch from Microsoft site below:
-  - https://www.microsoft.com/en-us/download/details.aspx?id=48234 
+- if you get error 0x80240017, then install patch from Microsoft site
+  - KB2919442 for Windows 2012R2
+  - KB2919335 for Windows 2012R2
