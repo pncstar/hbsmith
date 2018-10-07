@@ -30,6 +30,12 @@
 1. move 'Apache24' folder to 'C:\Apache24'.
 1. In 'C:\Apache24\bin\', run `httpd.exe -k install`.
 
+## install mod_wsgi
+
+1. `pip3 install mod_wsgi-4.6.4+ap24vc14-cp36-cp36m-win_amd64.whl`
+1. `mod_wsgi-express module-config`
+1. put the result of above command into 'C:\Apache24\conf\httpd.conf'.
+
 ## install python3
 
 - check 'Add Python to environment variables' in 'Advanced Options'.
