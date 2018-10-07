@@ -36,6 +36,17 @@
 1. `mod_wsgi-express module-config`
 1. put the result of above command into 'C:\Apache24\conf\httpd.conf'.
 
+```
+WSGIScriptAlias / /ss/Hyundai_Chart_Manager/Hyundai_Chart_Manager/wsgi.py
+WSGIPythonPath /ss/Hyundai_Chart_Manager
+
+<Directory /ss/Hyundai_Chart_Manager/Hyundai_Chart_Manager>
+<Files wsgi.py>
+Require all granted
+</Files>
+</Directory>
+```
+
 ## install python3
 
 - check 'Add Python to environment variables' in 'Advanced Options'.
