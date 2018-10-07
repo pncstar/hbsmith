@@ -11,16 +11,16 @@
 
 # Step By Step
 
+## download and install Microsoft packages
+
+- https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15 (for 'dtaidistance')
+- https://www.microsoft.com/en-us/download/details.aspx?id=49984 (install for Apache 2.4 services)
+
 ## download packages
 
-- https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15
 - https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe
 - https://files.pythonhosted.org/packages/19/9f/5b0780662486b1775ed8f70b63b73a2ec386f875a878c46efb6e2bc355ba/dtaidistance-1.1.3.tar.gz (dtaidistance==1.1.3)
-- https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.35-win64-VC15.zip
-
-## install prerequirements
-
-- vs_buildtools__544792918.1538907809 (for 'dtaidistance')
+- https://www.apachehaus.com/cgi-bin/download.plx?dli=gYy0keSNVW04EVj9yYzQWcJVlUGRVYRlXZWpkW
 
 ## install python3
 
@@ -50,6 +50,6 @@ In 'C:\ss\Hyundai_Chart_Manager\' run `python manage.py runserver 0.0.0.0:8080`.
 
 ## install apache
 
-1. unzip 'httpd-2.4.35-win64-VC15.zip'.
+1. unzip 'httpd-2.4.35-o102p-x64-vc14.zip'
 1. move 'Apache24' folder to 'C:\Apache24'.
 1. In 'C:\Apache24\bin\', run `httpd.exe -k install`.
