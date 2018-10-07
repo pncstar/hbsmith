@@ -41,7 +41,8 @@
 
 ## install pip packages
 
-In 'C:\ss\' run `python -m pip install -r requirements.txt`.
+1. download 'requirements.txt' from github repository (here).
+1. run `python -m pip install -r requirements.txt`.
 
 ### 'dtaidistance'
 
