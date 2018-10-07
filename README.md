@@ -20,6 +20,7 @@
     - install 'clearcompressionflag.exe' first
     - then 'Windows8.1-KB2919355-x64.msu'
 - https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15 (for 'dtaidistance')
+    - choose 'Visual Studio Build Tools 2017'
 - https://www.microsoft.com/en-us/download/details.aspx?id=49984 (install for Apache 2.4 services)
 
 ## download packages
