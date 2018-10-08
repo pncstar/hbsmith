@@ -6,8 +6,8 @@
     - https://download.virtualbox.org/virtualbox/5.2.18/VirtualBox-5.2.18-124319-Win.exe
 - vagrant: 2.1.5
     - https://releases.hashicorp.com/vagrant/2.1.5/vagrant_2.1.5_x86_64.msi
-- vagrant box: win-2012r2-standard-amd64-nocm
-    - https://app.vagrantup.com/opentable/boxes/win-2012r2-standard-amd64-nocm
+- vagrant box: windows 7 enterprise 64bit
+    - https://app.vagrantup.com/senglin/boxes/win-7-enterprise
 
 # Step By Step
 
@@ -39,7 +39,8 @@
 
 ## install python3
 
-- check 'Add Python to environment variables' in 'Advanced Options'.
+- Unchecking 'Install launcher for all users' (for Windowns 7).
+- Checking 'Add Python to environment variables' in 'Advanced Options'.
 
 ## install pip packages
 
