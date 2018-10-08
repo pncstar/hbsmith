@@ -57,7 +57,7 @@
 
 - download `mod_wsgi‑4.6.4+ap24vc14‑cp36‑cp36m‑win_amd64.whl`
     - https://www.lfd.uci.edu/~gohlke/pythonlibs/#mod_wsgi
-- run `python -m pip install mod_wsgi‑4.6.4+ap24vc14‑cp36‑cp36m‑win_amd64.whl`
+- run `python -m pip install "mod_wsgi-4.6.4+ap24vc14-cp36-cp36m-win_amd64.whl"`
 - run `mod_wsgi-express module-config >> C:\Apache24\conf\httpd.conf`
 - put the wsgi configure below the end of 'C:\Apache24\conf\httpd.conf':
 
