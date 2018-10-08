@@ -27,7 +27,7 @@
 
 - https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe
 - https://files.pythonhosted.org/packages/19/9f/5b0780662486b1775ed8f70b63b73a2ec386f875a878c46efb6e2bc355ba/dtaidistance-1.1.3.tar.gz (dtaidistance==1.1.3)
-- https://www.apachehaus.com/cgi-bin/download.plx?dli=gYy0keSNVW04EVj9yYzQWcJVlUGRVYRlXZWpkW
+- https://www.apachehaus.com/cgi-bin/download.plx (download 'httpd-2.4.35-o102p-x64-vc14.zip')
 - https://github.com/pncstar/hbsmith/raw/master/ss.zip
 - https://download.lfd.uci.edu/pythonlibs/h2ufg7oq/mod_wsgi-4.6.4+ap24vc14-cp36-cp36m-win_amd64.whl
 
