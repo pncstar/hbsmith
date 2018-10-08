@@ -3,44 +3,53 @@
 ## dev sandbox
 
 - virtualbox: 5.2.18
-    - https://download.virtualbox.org/virtualbox/5.2.18/VirtualBox-5.2.18-124319-Win.exe
+    - https://www.virtualbox.org/wiki/Downloads
 - vagrant: 2.1.5
-    - https://releases.hashicorp.com/vagrant/2.1.5/vagrant_2.1.5_x86_64.msi
+    - https://www.vagrantup.com/downloads.html
 - vagrant box: windows 7 enterprise 64bit
     - https://app.vagrantup.com/senglin/boxes/win-7-enterprise
 
 # Step By Step
 
-## download and install Microsoft packages
+## Install Apache
 
-- https://www.microsoft.com/en-us/download/confirmation.aspx?id=48159
+- Visual C++ Redistributable for Visual Studio 2015 Update 1 (for Apache 2.4 services)
+    - https://www.microsoft.com/en-us/download/details.aspx?id=49984
+- Download 'httpd-2.4.35-o102p-x64-vc14.zip'
+    - https://www.apachehaus.com/cgi-bin/download.plx
+- Unzip 'httpd-2.4.35-o102p-x64-vc14.zip'
+- Move 'Apache24' folder to 'C:\Apache24'.
+- In 'C:\Apache24\bin\', run `httpd.exe -k install`.
+- Reboot Windows OS and open `http://127.0.0.1/`
 
-- (for Windows 2012R2) https://www.microsoft.com/en-us/download/details.aspx?id=42153
-- (for Windows 2012R2) https://www.microsoft.com/en-us/download/details.aspx?id=42334
-    - install 'clearcompressionflag.exe' first
-    - then 'Windows8.1-KB2919355-x64.msu'
+## Install Python
+
+- Get Python 3.6.6
+    - https://www.python.org/downloads/
+- Unchecking 'Install launcher for all users' (for Windowns 7).
+- Checking 'Add Python to environment variables' in 'Advanced Options'.
+
+
+
+
+
+
+
+
+
+
+
 - https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15 (for 'dtaidistance')
     - choose 'Visual Studio Build Tools 2017'
-- https://www.microsoft.com/en-us/download/details.aspx?id=49984 (install for Apache 2.4 services)
+
 
 ## download packages
 
-- https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe
+
 - https://files.pythonhosted.org/packages/19/9f/5b0780662486b1775ed8f70b63b73a2ec386f875a878c46efb6e2bc355ba/dtaidistance-1.1.3.tar.gz (dtaidistance==1.1.3)
-- https://www.apachehaus.com/cgi-bin/download.plx (download 'httpd-2.4.35-o102p-x64-vc14.zip')
+
 - https://github.com/pncstar/hbsmith/raw/master/ss.zip
 - https://www.lfd.uci.edu/~gohlke/pythonlibs/#mod_wsgi (download 'mod_wsgi‑4.6.4+ap24vc15‑cp37‑cp37m‑win_amd64.whl')
-
-## install Apache
-
-1. unzip 'httpd-2.4.35-o102p-x64-vc14.zip'
-1. move 'Apache24' folder to 'C:\Apache24'.
-1. In 'C:\Apache24\bin\', run `httpd.exe -k install`.
-
-## install python3
-
-- Unchecking 'Install launcher for all users' (for Windowns 7).
-- Checking 'Add Python to environment variables' in 'Advanced Options'.
 
 ## install pip packages
 
