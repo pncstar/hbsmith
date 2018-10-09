@@ -70,15 +70,7 @@ WSGIPythonPath /ss/Hyundai_Chart_Manager
 Require all granted
 </Files>
 </Directory>
-```
 
-- in 'C:\ss\Hyundai_Chart_Manager\'
-    - run `python manage.py collectstatic`.
-- restart Apache web server and open `http://127.0.0.1/upload/`
-
-
-
-```
 Alias /static/ /ss/Hyundai_Chart_Manager/static/
 
 <Directory /ss/Hyundai_Chart_Manager/static>
@@ -86,5 +78,6 @@ Require all granted
 </Directory>
 ```
 
-
-
+- in 'C:\ss\Hyundai_Chart_Manager\'
+    - run `python manage.py collectstatic`.
+- restart Apache web server and open `http://127.0.0.1/upload/`
