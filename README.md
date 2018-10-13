@@ -22,7 +22,7 @@
 - in 'C:\Apache24\bin\', run `httpd.exe -k install`.
 - reboot Windows OS and open `http://127.0.0.1/`
 
-## Install Mysql
+## Install MySQL
 
 - Microsoft Visual C++ 2010 Redistributable Package (x86)
     - https://www.microsoft.com/en-us/download/details.aspx?id=14632
@@ -33,6 +33,9 @@
     - select 'Other Releases' in 'Age' filter and '64-bit' in 'Architecture' filter
     - select 'MySQL Server 5.6.41 - X64'
     - execute
+- In 'C:\Program Files\MySQL\MySQL Server 5.6\bin\'
+    - run `mysql -uroot -p < db_schema.sql`
+    - run `mysql -uroot -p < db_data.sql`
 
 ## Install Python
 
