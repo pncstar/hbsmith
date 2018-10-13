@@ -22,6 +22,11 @@
 - in 'C:\Apache24\bin\', run `httpd.exe -k install`.
 - reboot Windows OS and open `http://127.0.0.1/`
 
+## Install Mysql
+
+- download MySQL 5.6 and install
+    - https://dev.mysql.com/downloads/mysql/5.6.html
+
 ## Install Python
 
 - get Python 3.6.6
