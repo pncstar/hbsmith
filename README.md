@@ -43,7 +43,7 @@
 
 ## Install Python
 
-- get Python 3.6.6
+- get Python 3.6.6 (python-3.6.6-amd64.exe)
     - https://www.python.org/downloads/
 - unchecking 'Install launcher for all users' (for Windowns 7).
 - checking 'Add Python to environment variables' in 'Customize installation'.
