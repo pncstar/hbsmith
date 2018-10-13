@@ -25,7 +25,7 @@
 ## Install Mysql
 
 - download MySQL 5.6 and install
-    - https://dev.mysql.com/downloads/mysql/5.6.html
+    - https://dev.mysql.com/downloads/windows/installer/5.6.html
 
 ## Install Python
 
