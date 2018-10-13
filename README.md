@@ -33,6 +33,10 @@
     - select 'Other Releases' in 'Age' filter and '64-bit' in 'Architecture' filter
     - select 'MySQL Server 5.6.41 - X64'
     - execute
+- reboot Windows OS
+- get database dump
+    - https://github.com/pncstar/hbsmith/raw/master/dd.zip
+- unzip `dd.zip`
 - In 'C:\Program Files\MySQL\MySQL Server 5.6\bin\'
     - run `mysql -uroot -p < db_schema.sql`
     - run `mysql -uroot -p < db_data.sql`
