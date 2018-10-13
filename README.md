@@ -24,8 +24,15 @@
 
 ## Install Mysql
 
-- download MySQL 5.6 and install
+- Microsoft Visual C++ 2010 Redistributable Package (x86)
+    - https://www.microsoft.com/en-us/download/details.aspx?id=14632
+- download MySQL 5.6 (mysql-installer-community-5.6.41.0)
     - https://dev.mysql.com/downloads/windows/installer/5.6.html
+- install MySQL 5.6
+    - select 'Custom'
+    - select 'Other Releases' in 'Age' filter and '64-bit' in 'Architecture' filter
+    - select 'MySQL Server 5.6.41 - X64'
+    - execute
 
 ## Install Python
 
