@@ -50,6 +50,11 @@
 
 ## Install pip packages
 
+- run
+    - `mkdir C:\ProgramData\pip`
+    - `echo [global] > C:\ProgramData\pip\pip.ini`
+    - `echo index-url=http://ftp.daumkakao.com/pypi/simple >> C:\ProgramData\pip\pip.ini`
+    - `echo trusted-host=ftp.daumkakao.com >> C:\ProgramData\pip\pip.ini`
 - run `python -m pip install -r https://raw.githubusercontent.com/pncstar/hbsmith/master/requirements.txt`.
 - install 'Build Tools for Visual Studio 2017' in 'Tools for Visual Studio 2017' (for 'dtaidistance')
     - https://visualstudio.microsoft.com/downloads/
