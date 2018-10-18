@@ -9,9 +9,8 @@ cmd = ['mysqldump']
 cmd += ['-h' + env.db_host]
 cmd += ['-u' + env.db_user]
 cmd += ['-p' + env.db_password]
-cmd += ['--column-statistics=0']
 cmd += ['--comments']
-cmd += ['--databases', 'crowdpic']
+cmd += ['--databases', 'hyundai']
 cmd += ['--no-data']
 
 data = subprocess.Popen(cmd, stdout=PIPE).communicate()[0].decode()
