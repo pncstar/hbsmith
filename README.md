@@ -105,3 +105,13 @@ Require all granted
 - in 'C:\ss\Hyundai_Chart_Manager\'
     - run `python manage.py collectstatic`.
 - restart Apache web server and open `http://127.0.0.1/upload/`
+
+# MySQL Dump
+
+- get scripts
+    - https://github.com/pncstar/hbsmith/raw/master/env.py.sample
+    - https://github.com/pncstar/hbsmith/raw/master/mysqldump_schema.py
+    - https://github.com/pncstar/hbsmith/raw/master/mysqldump_data.py
+- create `env.py` from `env.py.sample`
+- run `mysqldump_schema.py > C:\db_schema.sql`
+- run `mysqldump_data.py > C:\db_data.sql`
