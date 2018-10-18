@@ -113,5 +113,5 @@ Require all granted
     - https://github.com/pncstar/hbsmith/raw/master/mysqldump_schema.py
     - https://github.com/pncstar/hbsmith/raw/master/mysqldump_data.py
 - create `env.py` from `env.py.sample`
-- run `mysqldump_schema.py > C:\db_schema.sql`
-- run `mysqldump_data.py > C:\db_data.sql`
+- run `python mysqldump_schema.py > C:\db_schema.sql`
+- run `python mysqldump_data.py > C:\db_data.sql`
