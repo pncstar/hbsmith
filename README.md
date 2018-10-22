@@ -111,6 +111,7 @@ Require all granted
 
 # [TIP] MySQL Dump
 
+- (NOTE: due to 'CP949' encoding issue, this may not be working for Windows environments.)
 - get scripts
     - https://github.com/pncstar/hbsmith/raw/master/env.py.sample
     - https://github.com/pncstar/hbsmith/raw/master/mysqldump_schema.py
@@ -119,7 +120,7 @@ Require all granted
 - run `python mysqldump_schema.py > C:\db_schema.sql`
 - run `python mysqldump_data.py > C:\db_data.sql`
 
-# How to Upgrade 
+# [TIP] How to Upgrade 
 
 - remove previous version, 'C:\ss\Hyundai_Chart_Manager\'.
 - get django server source code and unzip it.
