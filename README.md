@@ -1,6 +1,6 @@
 # Environments
 
-## dev sandbox
+## DEV Sandbox
 
 - virtualbox: 5.2.18
     - https://www.virtualbox.org/wiki/Downloads
@@ -71,9 +71,12 @@
 
 ## Test django development web server
 
-- get django server source code
+- get django server source code and unzip it.
     - https://github.com/pncstar/hbsmith/raw/master/ss.zip
-- in 'C:\ss\Hyundai_Chart_Manager\'
+- move django server source code to 'C:\ss\Hyundai_Chart_Manager\'.
+- remove all files and folders in 'C:\ss\Hyundai_Chart_Manager\static\'. (NOTE: do not remove 'static' folder.)
+- in 'C:\ss\Hyundai_Chart_Manager\',
+    - run `python manage.py collectstatic`
     - run `python manage.py runserver 0.0.0.0:8080`.
     - open `http://127.0.0.1:8080/upload`
 
@@ -106,7 +109,7 @@ Require all granted
     - run `python manage.py collectstatic`.
 - restart Apache web server and open `http://127.0.0.1/upload/`
 
-# MySQL Dump
+# [TIP] MySQL Dump
 
 - get scripts
     - https://github.com/pncstar/hbsmith/raw/master/env.py.sample
@@ -115,3 +118,13 @@ Require all granted
 - create `env.py` from `env.py.sample`
 - run `python mysqldump_schema.py > C:\db_schema.sql`
 - run `python mysqldump_data.py > C:\db_data.sql`
+
+# How to Upgrade 
+
+- remove previous version, 'C:\ss\Hyundai_Chart_Manager\'.
+- get django server source code and unzip it.
+- move django server source code to 'C:\ss\Hyundai_Chart_Manager\'.
+- remove all files and folders in 'C:\ss\Hyundai_Chart_Manager\static\'. (NOTE: do not remove 'static' folder.)
+- in 'C:\ss\Hyundai_Chart_Manager\',
+    - run `python manage.py collectstatic`
+- restart Apache web server and open `http://127.0.0.1/upload/`
