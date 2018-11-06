@@ -59,15 +59,6 @@
 - install 'Build Tools for Visual Studio 2017' in 'Tools for Visual Studio 2017' (for 'dtaidistance')
     - https://visualstudio.microsoft.com/downloads/
     - choose 'Visual Studio Build Tools 2017'
-- install 7zip
-    - https://www.7-zip.org/
-- download 'dtaidistance 1.1.3'
-    - https://pypi.org/project/dtaidistance/#files
-- unzip 'dtaidistance-1.1.3.tar.gz'
-- move 'dtaidistance-1.1.3' to 'C:\dtaidistance-1.1.3'
-- in 'C:\dtaidistance-1.1.3\setup.py' replace lines from 140 to 141 with `long_description = 'pass'`.
-    - https://github.com/wannesm/dtaidistance/blob/f0b60b6c8c770b915e07815fe2932bd24aaa064d/setup.py#L140-L141
-- in 'C:\dtaidistance-1.1.3\' run `python setup.py install`.
 
 ## Test django development web server
 
@@ -82,9 +73,9 @@
 
 ## Install mod_wsgi
 
-- download `mod_wsgi‑4.6.4+ap24vc14‑cp36‑cp36m‑win_amd64.whl`
+- download `mod_wsgi‑4.6.5+ap24vc14‑cp36‑cp36m‑win_amd64.whl`
     - https://www.lfd.uci.edu/~gohlke/pythonlibs/#mod_wsgi
-- run `python -m pip install "mod_wsgi-4.6.4+ap24vc14-cp36-cp36m-win_amd64.whl"`
+- run `python -m pip install "mod_wsgi‑4.6.5+ap24vc14‑cp36‑cp36m‑win_amd64.whl"`
 - run `mod_wsgi-express module-config >> C:\Apache24\conf\httpd.conf`
 - put the wsgi configure below the end of 'C:\Apache24\conf\httpd.conf':
 
